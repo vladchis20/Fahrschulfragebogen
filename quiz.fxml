@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.QuizController">
+   <children>
+      <Label fx:id="question" layoutX="50.0" layoutY="107.0" prefHeight="178.0" prefWidth="804.0" text="Question" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="answerA" layoutX="89.0" layoutY="280.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="745.0" text="CheckBox" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="answerB" layoutX="89.0" layoutY="392.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="745.0" text="CheckBox" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="answerC" layoutX="89.0" layoutY="511.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="745.0" text="CheckBox" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="373.0" layoutY="623.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="59.0" prefWidth="120.0" text="Submit Answer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="148.0" layoutY="19.0" prefHeight="44.0" prefWidth="139.0" text="Correct answers: " textFill="#008304">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="correctAnswerNr" layoutX="280.0" layoutY="33.0" prefHeight="17.0" prefWidth="14.0" text="0" />
+      <Label layoutX="607.0" layoutY="22.0" prefHeight="37.0" prefWidth="139.0" text="Wrong answers: " textFill="#eb0e0e">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="280.0" prefHeight="101.0" prefWidth="41.0" text="A">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="397.0" prefHeight="92.0" prefWidth="41.0" text="B">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="511.0" prefHeight="101.0" prefWidth="41.0" text="C">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrongAnswerNr" layoutX="739.0" layoutY="32.0" text="0" />
+      <Label fx:id="minutes" layoutX="428.0" layoutY="28.0" prefHeight="44.0" prefWidth="26.0" text="30">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="seconds" layoutX="461.0" layoutY="28.0" prefHeight="44.0" prefWidth="26.0" text="00">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="454.0" layoutY="26.0" prefHeight="44.0" prefWidth="7.0" text=":">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

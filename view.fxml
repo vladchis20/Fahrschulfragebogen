@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewController">
+   <children>
+      <Button fx:id="startQuizBtn" layoutX="359.0" layoutY="498.0" mnemonicParsing="false" onAction="#startQuiz" prefHeight="71.0" prefWidth="182.0" text="Start Quiz">
+         <font>
+            <Font size="29.0" />
+         </font></Button>
+      <Label layoutX="203.0" layoutY="150.0" prefHeight="215.0" prefWidth="495.0" text="Auto Questionaire DRPCIV">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
